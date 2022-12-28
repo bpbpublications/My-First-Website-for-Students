@@ -1,0 +1,35 @@
+<!DOCTYPE html>	
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Using Forms</title>     
+  </head>
+  <body>  	
+    <form action="" method="post">   
+      <p>Enter your name: 
+        <input type="text" name="myname" size="20" maxlength="80" required/>
+      </p>
+      <p>Enter your password: 
+        <input type="password" name="mypassword" size="20" maxlength="100" />
+      </p>
+      <p>Enter your email id:  
+        <input type="email" name="myemail" size="20" maxlength="60" required/>
+      </p>
+      <p>Enter URL of your website:  
+        <input type="url" name="myurl" size="20" maxlength="60" required/>
+      </p>
+      <p>Upload file of your CV (Max Size: 10 MB):  
+        <input type="file" name="mycvfile" />
+      </p>
+      <p>Enter your mobile number: 
+        <input type="tel" name="myphone" pattern="[0-9]{10}" size="10" maxlength="10"/>
+      </p>          
+      <p>Enter your birth date:  
+        <input type="date" name="mybirthdate" required />
+      </p>
+      <p>Now click this Submit button:  
+        <input type="submit" name="mysubmit" value="Submit"/>
+      </p>
+    </form>
+  </body>
+</html> 

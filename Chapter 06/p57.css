@@ -1,0 +1,12 @@
+ul.one {
+  list-style-type: circle;
+}
+ul.two {
+  list-style-type: square;
+}
+ol.three {
+  list-style-type: lower-roman;
+}
+ol.four {
+  list-style-type: lower-alpha; 
+}

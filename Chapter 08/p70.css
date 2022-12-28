@@ -1,0 +1,44 @@
+.text {
+  font-family: arial; 
+  font-size: 60px;
+  font-weight: bold; 
+  color: blue;  
+  margin: 20px;
+  padding: 10px; 
+} 
+.pic{
+  display: show;
+  height: 200px;
+}
+.logo{
+  height: 130px;
+}
+@media only screen and (max-width : 600px), 
+only screen and (max-device-width : 600px) { 
+  .text {
+    font-size: 40px;
+    font-style: italic;
+    color: red;  
+  } 
+  .pic{
+    display: none;
+  }
+  .logo{
+    height: 80px;
+  }
+}
+@media only screen and (max-width : 520px), 
+only screen and (max-device-width : 520px) { 
+  .text {
+    font-size: 30px;
+    font-style: normal; 
+    text-decoration: underline; 
+    color: hotpink;  
+  } 
+  .pic{
+    display: none;
+  }
+  .logo{
+    height: 50px;
+  }
+}

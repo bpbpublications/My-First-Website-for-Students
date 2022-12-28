@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px; 
+}
+body {
+  background-color: cyan;
+  color: rgb(0, 0, 255); 
+}
+h2 {
+  font-family: arial; 
+  font-size: 30px;
+  color: rgb(0, 0, 255); 
+  height:50px;
+  background-color: magenta;
+  background-color: aquamarine;
+  line-height:50px;
+  text-align: center; 
+} 
+p {
+  font-size: 18px;
+  font-color: blue;
+}
+.menu {
+  width: 100%;
+  background-color: blue; 
+  color: white;
+}
+ul {
+  text-align: left; 
+}
+ul li {
+  width: 120px;
+  display: inline-block; 
+  height: 35px;
+  line-height: 35px; 
+  text-align: center; 
+}
+ul li a {
+  font-family: arial; 
+  font-weight: bold; 
+  color: white; 
+  text-decoration: none; 
+  display: block; 
+}
+ul li a:hover, ul li a.active {
+  background-color: orange; 
+  color: black;
+}
+.container {
+  width: 70%;
+  margin-left: 10%
+}
+#topline { 
+  color: blue; 
+  font-size: 20px;
+  font-family: arial; 
+  font-weight: bold; 
+  }
+#form {  
+  color: blue;
+  font-size: 20px;
+  margin-top: 20px; 
+  font-family: arial; 
+  font-weight: bold; 
+}
+#female {
+  margin-left: 10%;
+}
+#male {
+  margin-left: 10%;
+}
+table {
+  margin-left: 10% ;
+  color: blue;
+  font-size: 20px;  
+  font-family: arial; 
+  font-weight: bold; 
+  column-width: 1000px; 
+  }
+td {
+  padding: 5px;
+}
+#submit {
+  width: 150px;
+  height: 40px;
+  font-size: 26px; 
+  background-color: chartreuse; 
+  color: indigo;
+  font-weight: bold; 
+  border: 5px solid brown;
+  border-radius: 15px; 
+  cursor: pointer;
+}
+.notice {
+  margin-top: 10px;
+  font-size: 20px;
+  color: red;
+}
+.copyright {
+  line-height: 40px; 
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  text-align: center; 
+  font-family: serif;
+  background-color: navy; 
+  color: white;
+}

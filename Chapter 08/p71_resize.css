@@ -1,0 +1,27 @@
+@media only screen and (max-width : 600px), 
+only screen and (max-device-width : 600px) { 
+  h1 { 
+    font-size: 22px; 
+  }
+  ul#navigation li a { 
+    font-size: 14px; 
+    font-weight: bold; 
+  } 
+}
+@media only screen and (max-width : 520px), 
+only screen and (max-device-width : 520px) { 
+  ul#navigation { 
+    padding: 0px; 
+    width: 100%; 
+  } 
+  ul#navigation li { 
+    width: 100%; 
+  } 
+  ul#navigation li a { 
+    width: 100%; 
+    padding: 12px 0px; 
+    text-align: center; 
+    border-top: solid 1px blue; 
+    border-bottom: solid 1px blue; 
+  }
+}

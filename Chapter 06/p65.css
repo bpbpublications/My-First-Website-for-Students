@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.block1 {
+  position: fixed;
+  top: 40px;
+  left: 60px; 
+  width: 300px;
+  height: 200px;
+  background-color: cyan;
+  border: 3px solid blue; 
+  z-index: 1; 
+}
+.block2 {
+  position: fixed;
+  top: 80px;
+  left: 100px; 
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: 3px solid blue; 
+  z-index: 2;
+}
+.block3 {
+  position: fixed;
+  top: 120px;
+  left: 140px; 
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+  border: 3px solid blue;  
+  z-index: 3;
+}  

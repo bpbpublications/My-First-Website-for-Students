@@ -1,0 +1,7 @@
+p {
+  border: 6px dashed orange;
+  outline: magenta solid 8px;
+  margin: auto;  
+  padding: 10px;
+  text-align: justify;
+}

@@ -1,0 +1,11 @@
+table{
+	width: 30%;
+	text-align: center; 
+}
+th, td{
+	border-bottom: 2px solid red;
+}
+tr:hover{
+	color: white;
+	background-color: orange;
+}
