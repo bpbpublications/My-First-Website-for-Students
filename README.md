@@ -1,2 +1,2 @@
-# Web Development for Beginners
- Web Development for Beginners, by BPB Publications
+# My First Website for students
+ My First Website for students, by BPB Publications
